@@ -1,0 +1,193 @@
+body {
+
+  background-color: black;
+  font-family: Arial;
+}
+
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.footer {
+  float:left;
+}
+
+.nav li{
+  float: left;
+}
+
+.nav li2{
+  float: right;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav a:hover {
+  background-color: #111
+}
+
+p {color: white;
+}
+
+h1 {color: white;
+  font-family: Lucida Console;
+}
+
+h2 {color: white;
+  font-family: Lucida Console;
+}
+
+h3 {color: white;
+  font-family: Lucida Console;
+}
+
+h4 {color: white;
+  font-family: Lucida Console;
+}
+
+li {color: white}
+
+link {color: white}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: auto;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+width: auto;
+margin: auto;
+}
+
+#photodiv {
+width: 400px;
+height: auto;
+display: table-cell;
+background-color: black;
+}
+
+#photodiv2 {
+width: 400px;
+height: auto;
+float:left;
+background-color: black;
+}
+
+#division1 {
+  height: 300px;
+  width: auto;
+  display: table;
+  background-color:#feb236;
+  border: 15px solid: #feb236;
+  padding: 30px;
+}
+
+.division1{
+  background-color: #ffcc5c;
+  width: auto;
+  border: 15px solid #ffcc5c;
+  padding: 50px;
+  margin: 20px;
+}
+
+.division2{
+  background-color: #4040a1;
+  width: auto;
+  border: 15px solid #4040a1;
+  padding: 50px;
+  margin: 20px;
+}
+
+.division3{
+  background-color:#feb236;
+  width: auto;
+  border: 15px solid #feb236;
+  padding: 50px;
+  margin: 20px;
+}
+
+#division3 {
+  width: auto;
+  display: table-cell;
+  height: 300px;
+  background-color:#feb236;
+  border: 15px solid: #feb236;
+  padding: 30px;
+}
+.photodiv {
+width: 400px;
+display:block;
+height: auto;
+position: sticky;
+background-color: black;
+}
+
+
+#division4 {
+  width: 100%;
+  display: table-columns;
+  height: 300px;
+  background-color:#80ced6;
+  border: 15px solid: #80ced6;
+  padding: 20px;
+
+}
+
+.division4 {
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 300px;
+  background-color:#80ced6;
+  border: 15px solid: #80ced6;
+  padding: 20px;
+
+}
+
+
+#division5 {
+  width: 100%;
+  display: table-columns;
+  height: 300px;
+  background-color:black;
+}
+
+
+#clear {
+clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#icon{
+
+  color:yellow;
+  height:auto;
+  width: 20px;
+  padding: 10px;
+}
+
+</style>

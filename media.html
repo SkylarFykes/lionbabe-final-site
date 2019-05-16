@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lion Babe | New R&B</title>
+  <link rel="stylesheet" href="./assets/stylesheets/discography.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/stylesheets/slick.css"/>
+  <link rel="stylesheet" href="./assets/stylesheets/slick-theme.css"/>
+
+<style>
+.your-class {
+  width:90%;
+  margin: auto;
+
+.your-class {
+  width:200px;
+  height: auto;
+  display: block;
+  margin: 30%;
+}
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+</style>
+
+  </head>
+  <body>
+
+<header role="banner">
+  <nav role="navigation">
+
+    <ul class="nav">
+
+      <li><a href="home.html"> <img src="./assets/images/about/logo.png" style="width:auto; height:60px;"></a></li>
+      <li2><a href="tour-dates.html">Tour Dates</a></li2>
+      <li2><a href="media.html">Media</a></li2>
+      <li2><a href="merch.html">Merch</a></li2>
+      <li2><a href="discography.html">Discography</a></li2>
+      <li2><a href="about.html">About</a></li2>
+
+    </ul>
+  </nav>
+
+</header>
+
+<div class="row">
+  <div class="column" style="background-color:#black;">
+  <a> <img src="./assets/images/media/lion-babe-blackwhite.jpg" alt="lion babe arm up" style="width:auto; height:275px;" /></a>
+  </div>
+  <div class="column" style="background-color:black;">
+    <h1>Media</h1>
+    <a> <img src="./assets/images/about/logo.png" alt="lion babe logo" style="width: 400px; height:auto;"/></a>
+  </div>
+</div>
+
+<hr />
+
+<section>
+<h2>Concert Shots</h2>
+
+  <div class="your-class">
+
+    <div><a> <img src="./assets/images/media/perform-1.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+    <div><a> <img src="./assets/images/media/perform-2.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+    <div><a> <img src="./assets/images/media/perform-3.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+    <div><a> <img src="./assets/images/media/perform-4.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+    <div><a> <img src="./assets/images/media/perform-5.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+    <!-- <div><a> <img src="./assets/images/media/perform-6.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div> -->
+    <!-- <div><a> <img src="./assets/images/media/perform-7.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div> -->
+    <div><a> <img src="./assets/images/media/perform-8.jpg" alt="lion babe arm up" style="width:auto; height:300px;"/></a></div>
+
+
+
+  </div>
+
+<!-- slideshow -->
+
+<section>
+<!-- music videos -->
+
+<h2>Music Videos</h2>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x-VET23C-9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Treat Me Like Fire</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8wAGqNnH9FQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Western World</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aHqsE2EOpJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Jump Hi</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t3nrnW2d03s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Jungle Lady</h4>
+
+</section>
+
+
+</header>
+
+<hr />
+<section>
+
+  <nav role="navigation">
+  <ul class="nav">
+    <footer class="footer">
+  <li><h2> Contact Us </h2></li>
+  <li><a href ="https://www.facebook.com/lionbabemusic/"> <i id="icon" class="fab fa-facebook-square"></i></a></li>
+  <li><a href ="https://www.instagram.com/lionbabe/?hl=en"> <i id="icon" class="fab fa-instagram"></i></a></li>
+  <li><a href ="https://soundcloud.com/lionbabe"> <i id= "icon" class="fab fa-soundcloud"></i></a></li>
+</footer>
+</ul>
+</nav>
+</section>
+
+<script src="./assets/javascripts/jquery.js"></script>
+<script src="./assets/javascripts/slick.min.js"></script>
+
+<!-- /<script src="./assets/javascripts/lightbox.min.js"></script> -->
+<!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+
+<script>
+   $(document).ready(function(){
+     $('.your-class').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+//   centerMode: true,
+//   centerPadding: '60px',
+//   slidesToShow: 3,
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 3
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 1
+//       }
+//     }
+//   ]
+// });
+
+   });
+ </script>
+
+</body>
+</html>
