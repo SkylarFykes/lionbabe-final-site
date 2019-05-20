@@ -2,8 +2,14 @@ body {
 
   background-color: black;
   font-family: Arial;
+  margin:0;
 }
 
+img {
+  height: 200px;
+  width: auto;
+
+}
 
 .nav {
   list-style-type: none;
@@ -61,7 +67,7 @@ li {color: white}
 
 link {color: white}
 /* Create two equal columns that floats next to each other */
-.column {
+.columntwo {
   float: left;
   width: auto;
   padding: 10px;

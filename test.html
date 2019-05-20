@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lion Babe | New R&B</title>
+  <link rel="stylesheet" href="./assets/stylesheets/lightbox.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+
+<header role="banner">
+  <nav role="navigation">
+
+    <ul class="nav">
+
+      <li><a href="index.html"> <img src="./assets/images/about/logo.png" style="width:auto; height:60px;"></a></li>
+      <li2><a href="tour-dates.html">Tour Dates</a></li2>
+      <li2><a href="media.html">Media</a></li2>
+      <li2><a href="merch.html">Merch</a></li2>
+      <li2><a href="discography.html">Discography</a></li2>
+      <li2><a href="about.html">About</a></li2>
+
+    </ul>
+  </nav>
+
+</header>
+
+<div class="row">
+  <div class="columntwo" style="background-color:#black;">
+  <a> <img src="./assets/images/about/bluenight.png" alt="lion babe arm up" style="width: auto; height:275px;" /></a>
+  </div>
+  <div class="columntwo" style="background-color:black;">
+    <h1>About</h1>
+    <a> <img src="./assets/images/about/logo.png" alt="lion babe logo" style="width: 400px; height:auto;"/></a>
+  </div>
+</div>
+
+<hr/>
+
+<div class="container">
+
+<div id="photodiv2">
+  <a> <img src="./assets/images/about/stripe-shirt-scarf.jpg" alt="lion babe arm up" style="width: auto; height:300px;" /></a>
+</div>
+
+<div id="division3">
+<h2> History </h2>
+<p>
+  Lion Babe is an American R&B duo from New York City, consisting of singer Jillian Hervey and record producer Lucas Goodman. Following their meeting through a mutual friend, the pair released the single "Treat Me Like Fire" in 2012, which raised their profile and led them to sign a record deal with Interscope Records. Following the signing, the duo released their self-titled debut EP in 2014.
+
+</p>
+
+</div>
+<div id="clear">
+</div>
+</div>
+
+<hr/>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="./assets/images/about/img1-thumbnail.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./assets/images/about/img2-thumbnail.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./assets/images/about/img3-thumbnail.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./assets/images/about/img4-thumbnail.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./assets/images/about/img1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./assets/images/about/img2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./assets/images/about/img3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./assets/images/about/img4.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="./assets/images/about/img1-thumbnail.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./assets/images/about/img2-thumbnail.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./assets/images/about/img3-thumbnail.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./assets/images/about/img4-thumbnail.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="./assets/javascripts/lightbox.js"></script>
+
+</body>
+</html>

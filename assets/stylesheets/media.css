@@ -1,36 +1,14 @@
-
-
-
 body {
 
   background-color: black;
-  color: white;
   font-family: Arial;
 }
 
-<style>
-.your-class {
-  width:90%;
-  margin: auto;
-
-.your-class {
-  width:200px;
-  height: auto;
-  display: block;
-  margin: 30%;
-}
-
-/* the slides */
-.slick-slide {
-    margin: 0 10px;
-}
-/* the parent */
-.slick-list {
-    margin: 0 -10px; }
+section {
+  padding-bottom: 500px;
 
 }
 
-</style>
 
 .nav {
   list-style-type: none;
@@ -42,6 +20,20 @@ body {
 
 .footer {
   float:left;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
 
 .nav li{
@@ -87,17 +79,7 @@ h4 {color: white;
 li {color: white}
 
 link {color: white}
-
-
 /* Create two equal columns that floats next to each other */
-.column2 {
-  float: left;
-  width: auto;
-  margin: 50px;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
 .column {
   float: left;
   width: auto;
@@ -117,6 +99,100 @@ width: auto;
 margin: auto;
 }
 
+#photodiv {
+width: 400px;
+height: auto;
+display: table-cell;
+background-color: black;
+}
+
+#photodiv2 {
+width: 400px;
+height: auto;
+float:left;
+background-color: black;
+}
+
+#division1 {
+  height: 300px;
+  width: auto;
+  display: table;
+  background-color:#feb236;
+  border: 15px solid: #feb236;
+  padding: 30px;
+}
+
+.division1{
+  background-color: #ffcc5c;
+  width: auto;
+  border: 15px solid #ffcc5c;
+  padding: 50px;
+  margin: 20px;
+}
+
+.division2{
+  background-color: #4040a1;
+  width: auto;
+  border: 15px solid #4040a1;
+  padding: 50px;
+  margin: 20px;
+}
+
+.division3{
+  background-color:#feb236;
+  width: auto;
+  border: 15px solid #feb236;
+  padding: 50px;
+  margin: 20px;
+}
+
+#division3 {
+  width: auto;
+  display: table-cell;
+  height: 300px;
+  background-color:#feb236;
+  border: 15px solid: #feb236;
+  padding: 30px;
+}
+.photodiv {
+width: 400px;
+display:block;
+height: auto;
+position: sticky;
+background-color: black;
+}
+
+
+#division4 {
+  width: 100%;
+  display: table-columns;
+  height: 300px;
+  background-color:#80ced6;
+  border: 15px solid: #80ced6;
+  padding: 20px;
+
+}
+
+.division4 {
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 300px;
+  background-color:#80ced6;
+  border: 15px solid: #80ced6;
+  padding: 20px;
+
+}
+
+
+#division5 {
+  width: 100%;
+  display: table-columns;
+  height: 300px;
+  background-color:black;
+}
+
+
 #clear {
 clear: both;
 }
@@ -131,13 +207,6 @@ clear: both;
   height:auto;
   width: 20px;
   padding: 10px;
-}
-
-
-}
-
-section {
-  padding-bottom: 50px;
 }
 
 </style>
